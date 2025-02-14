@@ -1,0 +1,42 @@
+/* CartoonInfo.css */
+.container {
+    background-color: #090979;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .search-box {
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 Columns */
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card img {
+    width: 150px;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card img:hover {
+    transform: scale(1.1); /* Zoom in on hover */
+  }
+  
